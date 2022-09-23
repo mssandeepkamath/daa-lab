@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/mssan/CLionProjects/DAA_LAB_FINAL/cmake-build-de
 
 build cmake_object_order_depends_target_DAA_LAB_FINAL: phony || CMakeFiles/DAA_LAB_FINAL.dir
 
-build CMakeFiles/DAA_LAB_FINAL.dir/Program11/Program11.cpp.obj: CXX_COMPILER__DAA_LAB_FINAL_Debug C$:/Users/mssan/CLionProjects/DAA_LAB_FINAL/Program11/Program11.cpp || cmake_object_order_depends_target_DAA_LAB_FINAL
-  DEP_FILE = CMakeFiles\DAA_LAB_FINAL.dir\Program11\Program11.cpp.obj.d
+build CMakeFiles/DAA_LAB_FINAL.dir/Program9/Program9.cpp.obj: CXX_COMPILER__DAA_LAB_FINAL_Debug C$:/Users/mssan/CLionProjects/DAA_LAB_FINAL/Program9/Program9.cpp || cmake_object_order_depends_target_DAA_LAB_FINAL
+  DEP_FILE = CMakeFiles\DAA_LAB_FINAL.dir\Program9\Program9.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\DAA_LAB_FINAL.dir
-  OBJECT_FILE_DIR = CMakeFiles\DAA_LAB_FINAL.dir\Program11
+  OBJECT_FILE_DIR = CMakeFiles\DAA_LAB_FINAL.dir\Program9
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/DAA_LAB_FINAL.dir/Program11/Program11.cpp.obj: CXX_COMPILER__DA
 #############################################
 # Link the executable DAA_LAB_FINAL.exe
 
-build DAA_LAB_FINAL.exe: CXX_EXECUTABLE_LINKER__DAA_LAB_FINAL_Debug CMakeFiles/DAA_LAB_FINAL.dir/Program11/Program11.cpp.obj
+build DAA_LAB_FINAL.exe: CXX_EXECUTABLE_LINKER__DAA_LAB_FINAL_Debug CMakeFiles/DAA_LAB_FINAL.dir/Program9/Program9.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DAA_LAB_FINAL.dir

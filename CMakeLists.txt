@@ -3,5 +3,5 @@ project(DAA_LAB_FINAL)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DAA_LAB_FINAL Program11/Program11.cpp)
+add_executable(DAA_LAB_FINAL  Program9/Program9.cpp)
 
