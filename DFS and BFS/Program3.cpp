@@ -49,19 +49,45 @@ void BFSUtil(int source)
 
 void DFS(int V)
 {
+    int count_component=0;
     for (int i = 0; i < V; i++)
     {
         if (!visited[i])
+        {
             DFSUtil(i);
+            count_component++;
+        }
+    }
+
+    if(count_component!=0)
+    {
+        cout<<"The given graph is disconnected and has "<<count_component<<" components\n";
+    }
+    else
+    {
+        cout<<"The given graph is connected\n";
     }
 }
 
 void BFS(int V)
 {
+    int count_component = 0;
     for (int i = 0; i < V; i++)
     {
         if (!visited[i])
+        {
             BFSUtil(i);
+            count_component++;
+        }
+           
+    }
+    if (count_component != 0)
+    {
+        cout << "The given graph is disconnected and has " << count_component << " components\n";
+    }
+    else
+    {
+        cout << "The given graph is connected\n";
     }
 }
 
