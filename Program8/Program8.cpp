@@ -62,7 +62,6 @@ void primsMST(int graph[V][V])
 
 int main()
 {
-     int m;
      int graph[V][V];
      cout<<"Enter the graph\n";
      for(int i=0;i<V;i++)

@@ -103,7 +103,7 @@ int main()
                     arr[j]=rand()%100;
                 }
                 t3= quickSort(arr,0,size-1);
-                cout<<size<<"\t\t"<<t1<<"\t\t"<<size*size<<"\t\t"<<t2<<"\t\t"<<size*size<<"\t\t"<<t3<<"\t\t"<<ln<<"\n";
+                cout<<size<<"\t"<<t1<<"\t\t"<<size*size<<"\t"<<t2<<"\t\t"<<size*size<<"\t"<<t3<<"\t\t"<<ln<<"\n";
                 size*=2;
             }
         }
